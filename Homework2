@@ -1,0 +1,32 @@
+# Завдання 1
+class Dog:
+    name = str(input("Dog name: "))
+    age = int(input("Dog age: "))
+    coat_color = str(input("Dog coat color: "))
+    bedtime = str(input("Dog bedtime: "))
+    walking_time = str(input("Dog walking time: "))
+    feed = str(input("Dog feed: "))
+
+> Игорь:
+# Завдання 2
+class Student:
+    name = str(input("student name: "))
+    age = int(input("student age: "))
+    work = int(input("Student salary: "))
+    rest = int(input("Money spent: "))
+    money = int(input("Amount of money first: "))
+
+if Student.rest >= Student.money:
+    print("GO TO WORK")
+    user = str(input("You going on work?"))
+if user == No:
+        print("Game is over!")
+if user == Yes
+    print("You earned" + Student.work + "dollars")
+    Student.miney + 500
+
+if Student.rest == Student.money:
+    print("You have not more money!")
+
+if Student.rest <= Student.money:
+    print("You have some money!")
